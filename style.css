@@ -1,0 +1,49 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    background: linear-gradient(to right, #283048, #859398);
+    color: #f1f1f1;
+    padding: clamp(20px, 5vw, 50px) 10px 10px;
+}
+
+
+h1, h2{
+    font-size: 65px;
+    text-align: center;
+    font-family: Play Fair, serif;
+}
+
+.info{
+    font-size: 30px;
+}
+
+h1 span:nth-child(1){
+    font-size: 20px;
+}
+
+.container{
+    max-width: 400px;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #090f29;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+    margin: 50px auto;
+
+}
+
+.cell{
+    aspect-ratio: 1/1;
+    font-size: 65px;
+    background-color: #090f29;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
